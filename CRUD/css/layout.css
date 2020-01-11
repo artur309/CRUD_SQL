@@ -1,0 +1,67 @@
+
+body {
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 48px;
+}
+
+.topo{
+
+	position:fixed;
+	left: 0;
+	top: 0;
+	width: 100%;
+	background-color: yellow;
+	color: black;
+	text-align: center;
+	margin-left: 160px; /* Same as the width of the sidenav */
+	font-size: 30px; /* Increased text to enable scrolling */
+
+}
+.rodape {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background-color: yellow;
+	color: black;
+	text-align: center;
+	margin-left: 160px; /* Same as the width of the sidenav */
+	font-size: 30px; /* Increased text to enable scrolling */
+}
+
+
+.sidenav {
+	height: 100%;
+	width: 160px;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	background-color: black;name="#novo"
+	overflow-x: hidden;
+	padding-top: 30px;
+}
+
+.sidenav a {
+	padding: 6px 8px 6px 16px;
+	text-decoration: none;
+	font-size: 30px;
+	color: yellow;
+	display: block;
+	position: center;
+
+}
+
+.sidenav a:hover {
+	animation: myanimation 1.3s infinite;
+}
+
+@keyframes myanimation 
+{
+	0% {color: red;}
+	99%{color: white;}
+	25% {color: #dcf4ef;}
+	50% {color:green;}
+	75% {color:brown;}
+	100% {color: red;}
+}

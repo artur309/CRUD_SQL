@@ -1,0 +1,84 @@
+
+.open-button {
+	text-decoration: none;
+	font-size: 36px;
+	color: yellow;
+	display: block;
+	position: center;
+}
+
+/* The popup form - hidden by default */
+.form-popup {
+	display: none;
+	width:86%;
+	height: 50%;	
+
+	margin:0px auto;
+	color: black;
+	text-align: center;
+	border: 22px ;
+	margin-left: 190px; /* Same as the width of the sidenav */
+	font-size: 20px; /* Increased text to enable scrolling */
+
+}
+
+/* Full-width input fields */
+.form-container input[type=text]{
+	border: none;
+	background: #f1f1f1;
+	text-align:right;
+}
+
+.form-container input[type=number]{
+	border: none;
+	background: #f1f1f1;
+	display:inline-block;
+	width:200px;
+	margin-right:30px;
+	text-align:right;
+}
+.form-container input[type=radio]{
+	border: none;
+	background: #f1f1f1;
+	text-align:right;
+}
+/* When the inputs get focus, do something */
+.form-container input[type=text]:focus, .form-container input[type=number]:focus {
+	background-color: #ddd;
+	outline: none;
+	display:inline-block;
+	width:200px;
+	margin-right:30px;
+	text-align:right;
+}
+
+/* Set a style for the submit/login button */
+.form-container .btn {
+	background-color: #4CAF50;
+	color: white;
+	opacity: 0.8;
+}
+
+/* Add a red background color to the cancel button */
+.form-container .cancel {
+	background-color: red;
+}
+
+/* Add some hover effects to buttons */
+.form-container .btn:hover, .open-button:hover {
+	opacity: 1;
+}
+
+.editarAluno {
+	
+	width:86%;
+	height: 50%;	
+
+	margin:0px auto;
+	color: black;
+	text-align: center;
+	border: 22px ;
+	margin-left: 190px; /* Same as the width of the sidenav */
+	font-size: 20px; /* Increased text to enable scrolling */
+
+}
